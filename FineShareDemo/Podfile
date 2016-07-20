@@ -1,0 +1,3 @@
+target "FineShareDemo" do
+pod 'UMengSocialCOM'
+end

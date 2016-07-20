@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8EB5740686592D6153A075E /* libPods-FineShareDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 504B27A210B58F551468C46D /* libPods-FineShareDemo.a */; };
+		F1C19CFA1D3F0599004BDAA0 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C19CF91D3F0599004BDAA0 /* ShareView.m */; };
+		F1FB80591D38BE7B00F4941B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FB80581D38BE7B00F4941B /* main.m */; };
+		F1FB805C1D38BE7B00F4941B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FB805B1D38BE7B00F4941B /* AppDelegate.m */; };
+		F1FB805F1D38BE7B00F4941B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FB805E1D38BE7B00F4941B /* ViewController.m */; };
+		F1FB80621D38BE7B00F4941B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FB80601D38BE7B00F4941B /* Main.storyboard */; };
+		F1FB80641D38BE7B00F4941B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FB80631D38BE7B00F4941B /* Assets.xcassets */; };
+		F1FB80671D38BE7B00F4941B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FB80651D38BE7B00F4941B /* LaunchScreen.storyboard */; };
+		F1FB80701D38BEB400F4941B /* FineShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FB806F1D38BEB400F4941B /* FineShareManager.m */; };
+		F1FB80741D38C10900F4941B /* BaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FB80731D38C10900F4941B /* BaseButton.m */; };
+		F1FB80791D38CDEF00F4941B /* demo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1FB80781D38CDEF00F4941B /* demo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		487FB417DD93DE8A8B0E7293 /* Pods-FineShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FineShareDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FineShareDemo/Pods-FineShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		504B27A210B58F551468C46D /* libPods-FineShareDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FineShareDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E4B2E5C8BA98E4BCC5BAF5 /* Pods-FineShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FineShareDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FineShareDemo/Pods-FineShareDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F1C19CF81D3F0599004BDAA0 /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareView.h; path = ../../FineShare/ShareView.h; sourceTree = "<group>"; };
+		F1C19CF91D3F0599004BDAA0 /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareView.m; path = ../../FineShare/ShareView.m; sourceTree = "<group>"; };
+		F1FB80541D38BE7B00F4941B /* FineShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FineShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FB80581D38BE7B00F4941B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1FB805A1D38BE7B00F4941B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1FB805B1D38BE7B00F4941B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1FB805D1D38BE7B00F4941B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1FB805E1D38BE7B00F4941B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1FB80611D38BE7B00F4941B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1FB80631D38BE7B00F4941B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1FB80661D38BE7B00F4941B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1FB80681D38BE7B00F4941B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FB806E1D38BEB400F4941B /* FineShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FineShareManager.h; path = ../../FineShare/FineShareManager.h; sourceTree = "<group>"; };
+		F1FB806F1D38BEB400F4941B /* FineShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FineShareManager.m; path = ../../FineShare/FineShareManager.m; sourceTree = "<group>"; };
+		F1FB80721D38C10900F4941B /* BaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseButton.h; path = ../../FineShare/BaseButton.h; sourceTree = "<group>"; };
+		F1FB80731D38C10900F4941B /* BaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseButton.m; path = ../../FineShare/BaseButton.m; sourceTree = "<group>"; };
+		F1FB80781D38CDEF00F4941B /* demo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1FB80511D38BE7B00F4941B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EB5740686592D6153A075E /* libPods-FineShareDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54A78E9B65D29FE318B2FEAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				504B27A210B58F551468C46D /* libPods-FineShareDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF1F68726F2CBB5FD18D036C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				487FB417DD93DE8A8B0E7293 /* Pods-FineShareDemo.debug.xcconfig */,
+				51E4B2E5C8BA98E4BCC5BAF5 /* Pods-FineShareDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1FB804B1D38BE7B00F4941B = {
+			isa = PBXGroup;
+			children = (
+				F1FB80561D38BE7B00F4941B /* FineShareDemo */,
+				F1FB80551D38BE7B00F4941B /* Products */,
+				BF1F68726F2CBB5FD18D036C /* Pods */,
+				54A78E9B65D29FE318B2FEAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1FB80551D38BE7B00F4941B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1FB80541D38BE7B00F4941B /* FineShareDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1FB80561D38BE7B00F4941B /* FineShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F1FB80711D38C0A900F4941B /* FineShare */,
+				F1FB805A1D38BE7B00F4941B /* AppDelegate.h */,
+				F1FB805B1D38BE7B00F4941B /* AppDelegate.m */,
+				F1FB805D1D38BE7B00F4941B /* ViewController.h */,
+				F1FB805E1D38BE7B00F4941B /* ViewController.m */,
+				F1FB80601D38BE7B00F4941B /* Main.storyboard */,
+				F1FB80631D38BE7B00F4941B /* Assets.xcassets */,
+				F1FB80651D38BE7B00F4941B /* LaunchScreen.storyboard */,
+				F1FB80681D38BE7B00F4941B /* Info.plist */,
+				F1FB80571D38BE7B00F4941B /* Supporting Files */,
+			);
+			path = FineShareDemo;
+			sourceTree = "<group>";
+		};
+		F1FB80571D38BE7B00F4941B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1FB80781D38CDEF00F4941B /* demo.jpg */,
+				F1FB80581D38BE7B00F4941B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1FB80711D38C0A900F4941B /* FineShare */ = {
+			isa = PBXGroup;
+			children = (
+				F1FB80721D38C10900F4941B /* BaseButton.h */,
+				F1FB80731D38C10900F4941B /* BaseButton.m */,
+				F1FB806E1D38BEB400F4941B /* FineShareManager.h */,
+				F1FB806F1D38BEB400F4941B /* FineShareManager.m */,
+				F1C19CF81D3F0599004BDAA0 /* ShareView.h */,
+				F1C19CF91D3F0599004BDAA0 /* ShareView.m */,
+			);
+			name = FineShare;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1FB80531D38BE7B00F4941B /* FineShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FB806B1D38BE7B00F4941B /* Build configuration list for PBXNativeTarget "FineShareDemo" */;
+			buildPhases = (
+				C53ABD32D6202F7C38781566 /* [CP] Check Pods Manifest.lock */,
+				F1FB80501D38BE7B00F4941B /* Sources */,
+				F1FB80511D38BE7B00F4941B /* Frameworks */,
+				F1FB80521D38BE7B00F4941B /* Resources */,
+				5B5D2B9DB98069935531083A /* [CP] Embed Pods Frameworks */,
+				9BD0E9E97E89A6DE865CF8E6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FineShareDemo;
+			productName = FineShareDemo;
+			productReference = F1FB80541D38BE7B00F4941B /* FineShareDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1FB804C1D38BE7B00F4941B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = fine;
+				TargetAttributes = {
+					F1FB80531D38BE7B00F4941B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F1FB804F1D38BE7B00F4941B /* Build configuration list for PBXProject "FineShareDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1FB804B1D38BE7B00F4941B;
+			productRefGroup = F1FB80551D38BE7B00F4941B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1FB80531D38BE7B00F4941B /* FineShareDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1FB80521D38BE7B00F4941B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FB80671D38BE7B00F4941B /* LaunchScreen.storyboard in Resources */,
+				F1FB80791D38CDEF00F4941B /* demo.jpg in Resources */,
+				F1FB80641D38BE7B00F4941B /* Assets.xcassets in Resources */,
+				F1FB80621D38BE7B00F4941B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B5D2B9DB98069935531083A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FineShareDemo/Pods-FineShareDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BD0E9E97E89A6DE865CF8E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FineShareDemo/Pods-FineShareDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C53ABD32D6202F7C38781566 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1FB80501D38BE7B00F4941B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FB805F1D38BE7B00F4941B /* ViewController.m in Sources */,
+				F1FB80701D38BEB400F4941B /* FineShareManager.m in Sources */,
+				F1FB805C1D38BE7B00F4941B /* AppDelegate.m in Sources */,
+				F1FB80741D38C10900F4941B /* BaseButton.m in Sources */,
+				F1C19CFA1D3F0599004BDAA0 /* ShareView.m in Sources */,
+				F1FB80591D38BE7B00F4941B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1FB80601D38BE7B00F4941B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FB80611D38BE7B00F4941B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1FB80651D38BE7B00F4941B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FB80661D38BE7B00F4941B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1FB80691D38BE7B00F4941B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1FB806A1D38BE7B00F4941B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1FB806C1D38BE7B00F4941B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487FB417DD93DE8A8B0E7293 /* Pods-FineShareDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FineShareDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaopi.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1FB806D1D38BE7B00F4941B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E4B2E5C8BA98E4BCC5BAF5 /* Pods-FineShareDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = FineShareDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaopi.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1FB804F1D38BE7B00F4941B /* Build configuration list for PBXProject "FineShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FB80691D38BE7B00F4941B /* Debug */,
+				F1FB806A1D38BE7B00F4941B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FB806B1D38BE7B00F4941B /* Build configuration list for PBXNativeTarget "FineShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FB806C1D38BE7B00F4941B /* Debug */,
+				F1FB806D1D38BE7B00F4941B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1FB804C1D38BE7B00F4941B /* Project object */;
+}
